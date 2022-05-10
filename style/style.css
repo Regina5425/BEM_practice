@@ -97,6 +97,7 @@ img {
 }
 
 .title {
+	margin: 0;
 	font-family: 'Intro';
 	font-weight: 700;
 	font-size: 60px;
@@ -105,6 +106,7 @@ img {
 }
 
 .descr {
+	margin: 0;
 	font-family: 'RobotoSlabLight';
 	font-size: 20px;
 	line-height: 160%;
@@ -191,6 +193,69 @@ img {
 	position: absolute;
 	top: 0;
 	right: 0;
+}
+
+/*========opportunities========*/
+
+.opportunities {
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+
+.opportunities__title {
+	margin-bottom: 40px;
+}
+
+.opportunities__items {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	column-gap: 70px;
+	row-gap: 30px;
+}
+
+.opportunities-item {
+	padding: 25px 20px;
+	grid-column: span 4;
+}
+
+.opportunities-item__img {
+	display: inline-block;
+	margin-bottom: 25px;
+}
+
+.opportunities-item__title {
+	margin: 0;
+	margin-bottom: 10px;
+	font-family: 'Intro';
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 120%;
+	text-transform: uppercase;
+}
+
+.opportunities-item__title--light {
+	color: var(--color-light);
+}
+
+.opportunities-item--news {
+	background-color: var(--color-coral);
+}
+
+.opportunities-item__input {
+	margin-bottom: 23px;
+	padding: 10px 15px;
+	display: block;
+	width: 100%;
+	border: none;
+	background-color: var(--color-light);
+}
+
+.opportunities-item__input::placeholder {
+	color: #000;
+}
+
+.opportunities-item__btn {
+	padding: 12px 15px;
 }
 
 /*=======foooter========*/
