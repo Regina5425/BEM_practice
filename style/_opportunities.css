@@ -1,24 +1,3 @@
-@import "_normalize.css";
-@import "_fonts.css";
-/* шрифты */
-@import "_variables.css";
-/* переменные */
-@import "_global.css";
-/* сброс стилей */
-@import "_overall.css";
-/* общие стили для сайта, кнопки, заголовки и тд. */
-
-/* components imports */
-@import "_header.css";
-@import "_main.css";
-@import "_footer.css";
-@import "_media.css";
-/* медиа запросы */
-
-
-
-
-
 /*========opportunities========*/
 
 .opportunities {

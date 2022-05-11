@@ -1,0 +1,54 @@
+/*=======overall settings=======*/
+.site-container {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.container {
+	max-width: 1315px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.btn-reset {
+	border: none;
+	padding: 0;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.list-reset {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.btn {
+	font-family: 'Intro';
+	font-weight: 700;
+	background-color: var(--color-accent);
+	border-radius: 100px;
+	text-transform: uppercase;
+	color: var(--color-light);
+	transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+	background-color: var(--color-hover);
+}
+
+.title {
+	margin: 0;
+	font-family: 'Intro';
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 120%;
+	text-transform: uppercase;
+}
+
+.descr {
+	margin: 0;
+	font-family: 'RobotoSlabLight';
+	font-size: 20px;
+	line-height: 160%;
+}

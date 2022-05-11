@@ -1,0 +1,47 @@
+/*=======main========*/
+
+.hero {
+	padding-top: 20px;
+	padding-bottom: 80px;
+}
+
+.hero__container {
+	display: flex;
+	justify-content: space-between;
+	gap: 45px;
+}
+
+.hero__left {
+	padding-top: 75px;
+	max-width: 530px;
+}
+
+.hero__title {
+	margin-bottom: 10px;
+}
+
+.hero__descr {
+	margin-bottom: 30px;
+}
+
+.btn__hero {
+	position: relative;
+	padding: 25px 33px;
+	padding-right: 70px;
+	font-size: 35px;
+	line-height: 35px;
+}
+
+.btn__hero::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 13px;
+	width: 41px;
+	height: 28px;
+	background-image: url(../img/credit.svg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transform: translateY(-50%);
+}
